@@ -1,0 +1,32 @@
+Goal: Build a product manager with Laravel.
+
+1. Create an administration area where i can login and view my products/add products.
+
+2. Admin user should have a page where he can edit his info. Info should be:
+
+	- First Name
+	- Last Name
+	- Email
+	- Username
+
+	(all fields are required and you should use proper validation for email)
+
+3. Have another page where admin can change his password. He should be required to enter the old password first to verify it and then the new password and confirm new password.
+   Password should be encrypted using Laravel hash.
+
+4. Products consist of:
+
+	- Name
+	- Price (should be a number with 2 decimals)
+	- Payment Type (Monthly/One Time)
+	- Description
+	- Picture
+	- Quantity
+
+5. Display products in a table inside the admin area using Laravel pagination with 10 products per page. Display all product info, except description.
+
+6. Add the ability to edit product's details and delete products.
+
+7. Create a public page where products are listed one per row and you can keep scrolling down loading more products until you reach the end of the page.
+
+8. Don't use any complicated CSS, just make it look pleasant.

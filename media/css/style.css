@@ -1,0 +1,12 @@
+body{ font-family: Arial; font-size: 15px;}
+.borderRadius{
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+.clear{ clear: both;}
+.boxLogin{ margin: 100px 0px 0px 100px; background-color: #269abc; width: 450px; padding: 20px; color: #fff;}
+.boxLogin label{ width: 150px; float: left; margin-bottom: 20px; margin-top: 5px;}
+.boxLogin input[type=text],.boxLogin input[type=password]{ padding: 8px; width: 280px;border: 0px none #000000;}
+.boxLogin input[type=submit]{ padding: 9px 30px 9px 30px; margin-top: 10px; background-color: #204d74; color: #fff;border: 0px none #000000;}
+.errors{ background-color: #fff; color: red; padding: 5px; margin-bottom: 10px;}
